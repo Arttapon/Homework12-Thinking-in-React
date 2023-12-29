@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+.suminfo{
+    text-align: center;
+}
+.counter {
+    display: flex;
+    align-items: baseline;
+    height: 80px;
+    width: 300px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px ;
+  }
+  .counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 24px;
+  }
+  .counter button {
+    padding: 6px 12px;
+    margin: 0 4px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.counter button:hover {
+    background-color: #bbb;
+}
+
+.counter button:active {
+    background-color: #999;
+}
+/* style.css */
+
+.add-counter-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  
+  .add-counter-btn:hover {
+    background-color: #0056b3;
+  }
+.counter button {
+    padding: 8px 12px;
+    margin: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for buttons */
+    transition: transform 0.1s ease;
+  }
+  
+  /* Style for decrement button */
+  .counter button:nth-child(1) {
+    background-color: #dc3545; /* Red color for decrement button */
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style for reset button */
+  .counter button:nth-child(3) {
+    background-color: #ffc107; /* Yellow color for reset button */
+  }
+  
+  /* Style for remove (X) button */
+  .counter button:nth-child(4) {
+    background-color: #6c757d; /* Gray color for remove button */
+    color: white;
+  }
+  .counter button:active {
+    transform: scale(0.95);
+  }
+    
